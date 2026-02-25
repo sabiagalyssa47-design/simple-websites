@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AKLAN ACADEMY</title>
+
+<style>
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+body{
+    line-height:1.6;
+    background:#f4fff4;
+}
+
+/* Header */
+header{
+    background:#0b5d1e;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+header h1{
+    font-size:32px;
+}
+
+/* Navigation */
+nav{
+    background:#0f7a28;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+nav ul li{
+    margin:15px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#d4ffcc;
+}
+
+/* Hero Section */
+.hero{
+    background:linear-gradient(rgba(0,80,0,0.6), rgba(0,80,0,0.6)),
+    url("https://images.unsplash.com/photo-1571260899304-425eee4c7efc") no-repeat center/cover;
+    height:400px;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+.hero h2{
+    font-size:36px;
+}
+
+.hero button{
+    margin-top:15px;
+    padding:10px 20px;
+    border:none;
+    background:#32cd32;
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+.hero button:hover{
+    background:#228b22;
+}
+
+/* Sections */
+section{
+    padding:50px 20px;
+    text-align:center;
+}
+
+section h2{
+    color:#0b5d1e;
+    margin-bottom:20px;
+}
+
+/* About */
+.about{
+    background:#e6ffe6;
+}
+
+/* Programs */
+.programs{
+    background:white;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+    margin-top:20px;
+}
+
+.card{
+    background:#f0fff0;
+    padding:20px;
+    width:280px;
+    border-radius:8px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.1);
+    border-top:5px solid #0f7a28;
+}
+
+/* Contact */
+.contact{
+    background:#e6ffe6;
+}
+
+/* Footer */
+footer{
+    background:#0b5d1e;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+
+/* Responsive */
+@media(max-width:768px){
+    .hero h2{
+        font-size:26px;
+    }
+    nav ul{
+        flex-direction:column;
+        align-items:center;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Evergreen National High School</h1>
+    <p>Growing Knowledge, Building Futures</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Academics</a></li>
+       
+    </ul>
+</nav>
+
+<section class="hero">
+    <h2>Welcome to Evergreen National High School</h2>
+    <p>Providing quality education in a safe and inspiring environment.</p>
+    <button>Enroll Now</button>
+</section>
+
+<section class="about">
+    <h2>About Our School</h2>
+    <p>
+        Evergreen National High School is committed to academic excellence,
+        leadership development, and character formation. We nurture students
+        to become responsible and globally competitive citizens.
+    </p>
+</section>
+
+<section class="programs">
+    <h2>Our Academic Programs</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Junior High School</h3>
+            <p>Grades 7–10 with a strong academic foundation.</p>
+        </div>
+        <div class="card">
+            <h3>Senior High School</h3>
+            <p>STEM, HUMSS, ABM, and TVL tracks available.</p>
+        </div>
+        <div class="card">
+            <h3>Clubs & Activities</h3>
+            <p>Sports, arts, music, and leadership organizations.</p>
+        </div>
+    </div>
+</section>
+
+<section class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@evergreenhs.edu</p>
+    <p>Phone: (123) 456-7890</p>
+    <p>Address: Green Valley, City</p>
+</section>
+
+<footer>
+    <p>© 2026 Evergreen National High School | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
